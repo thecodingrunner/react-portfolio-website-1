@@ -8,17 +8,19 @@ import Contact from './components/contacts/Contact'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
+import Cursor from './components/cursor/Cursor'
 
 const App = () => {
   return (
     <>
+      <Cursor />
       <Header />
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </>

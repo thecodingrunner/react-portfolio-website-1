@@ -3,6 +3,22 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/finnmoffett-nobackground.png'
 import HeaderSocials from './HeaderSocials'
+// import {motion} from 'framer-motion'
+
+// const sliderVariants = {
+//   initial: {
+//     x: 0,
+//   },
+//   animate: {
+//     x: "220%",
+//     transition: {
+//       repeat: Infinity,
+//       duration: 20,
+//     },
+//   },
+// };
+
+//  variants={sliderVariants} initial="initial" animate="animate"
 
 const Header = () => {
   return (
