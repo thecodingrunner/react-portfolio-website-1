@@ -37,6 +37,10 @@ header {
   font-size: 1.6rem;
 }
 
+.header__socials a:hover {
+  color: var(--color-bg);
+}
+
 .header__socials::after {
   content: '';
   width: 1px;
@@ -64,6 +68,10 @@ header {
   transform: rotate(90deg);
   font-weight: 200;
   font-size: 1.6rem;
+}
+
+.scroll__down:hover {
+  color: var(--color-bg);
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -95,4 +103,8 @@ header {
   .me {
     display: none;
   }
+}
+
+.text-light {
+  font-family: monospace;
 }

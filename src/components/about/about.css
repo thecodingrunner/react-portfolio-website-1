@@ -29,7 +29,7 @@
   transform: rotate(0deg);
 }
 
-.about__cards {
+/* .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -63,11 +63,12 @@
 .about__card small {
   font-size: 0.7rem;
   color: var(--color-light);
-}
+} */
 
 .about__content p {
+  font-size: 1.3rem;
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-bg);
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

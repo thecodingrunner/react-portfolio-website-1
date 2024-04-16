@@ -12,6 +12,7 @@
 
 :root {
   --color-bg: #381f1f;
+  --color-bg-2: #fffbfa;
   --color-bg-variant: #6c2c2c;
   --color-primary: #ff4d4d;
   --color-primary-variant: rgba(255, 77, 77, 0.4);
@@ -35,8 +36,8 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-bg-2);
+  color: var(--color-bg);
   line-height: 1.7;
   /* background-image: url('./assets/background-texture.avif'); */
 }
@@ -63,7 +64,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light)
+  color: var(--color-bg)
 }
 
 section > h2 {
@@ -72,7 +73,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-light);
+  color: var(--color-bg);
 }
 
 a {
@@ -93,10 +94,11 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition); 
+  font-size: 16px;
 }
 
 .btn:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-bg-2);
   color: var(--color-bg);
   border-color: transparent;
 }

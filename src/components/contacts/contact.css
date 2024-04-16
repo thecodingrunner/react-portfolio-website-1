@@ -18,22 +18,25 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  color: white;
+  font-size: 1.2rem;
 }
 
 .contact__option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  color: var(--color-bg);
 }
 
 .contact__option-icon {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 0.5rem;
 }
 
 .contact__option a {
   margin-top: 0.7rem;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* FORM */
@@ -50,7 +53,9 @@ input, textarea {
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
-  color: var(--color-white)
+  font-size: 1.1rem;
+  color: var(--color-bg);
+  font-family: monospace;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -64,6 +69,12 @@ input, textarea {
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
   .container.contact__container {
-    width: var(--container-width-sm)
+    width: var(--container-width-sm);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

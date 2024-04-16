@@ -3,22 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/finnmoffett-nobackground.png'
 import HeaderSocials from './HeaderSocials'
-// import {motion} from 'framer-motion'
-
-// const sliderVariants = {
-//   initial: {
-//     x: 0,
-//   },
-//   animate: {
-//     x: "220%",
-//     transition: {
-//       repeat: Infinity,
-//       duration: 20,
-//     },
-//   },
-// };
-
-//  variants={sliderVariants} initial="initial" animate="animate"
+import { TypeAnimation } from 'react-type-animation'
 
 const Header = () => {
   return (
@@ -26,13 +11,30 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Finn Moffett</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <TypeAnimation 
+          sequence={[
+            'Frontend Developer',
+            1000,
+            'Mechanical Engineering Graduate',
+            1000,
+            'Japan Enthusiast',
+            1000,
+            'Sports Enthusiast',
+            1000,
+            'Martial Arts Enthusiast',
+            1000,
+            'Productive Procrastinator',
+            1000,
+            'Professional Overthinker',
+            1000
+          ]}
+          wrapper="h5"
+          speed={50}
+          className='text-light'
+          repeat={Infinity}
+          />
         <CTA /> 
         <HeaderSocials />
-
-        {/* <div className="me">
-          <img src={ME} alt="me"/>
-        </div> */}
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>

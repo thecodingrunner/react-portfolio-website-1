@@ -18,7 +18,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Experience</h5>
@@ -34,7 +34,7 @@ const About = () => {
               <h5>Projects</h5>
               <small>80+ Completed Projects</small>
             </article>
-          </div>
+          </div> */}
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptatem hic voluptates quod, commodi aut, assumenda nesciunt aperiam cum eos laborum, debitis nam vitae veritatis corrupti aliquid delectus quo dolores.</p>
 
